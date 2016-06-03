@@ -1,0 +1,35 @@
+<div class="container">
+
+  <div>
+    <acme-navbar></acme-navbar>
+  </div>
+
+  <div class="jumbotron text-center">
+
+    <h4>Users</h4>
+
+    <div class="table-responsive">
+
+      <table ng-table="tableParams" class="table table-striped">
+
+        <tr ng-repeat="item in main.data">
+
+          <td>{{ $index + 1 }}</td>
+
+          <td data-title="'ID'">
+            <a ui-sref="details({userId: item.id})">{{item.id}}</a>
+          </td>
+          <td data-title="'Name'">
+            {{item.name}}
+          </td>
+
+        </tr>
+
+      </table>
+      <!-- pre>{{main.data| json}}</pre><br/ -->
+    </div>
+
+  </div>
+
+
+</div>

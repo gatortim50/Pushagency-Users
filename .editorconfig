@@ -1,0 +1,39 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @gatortim50
+ Unwatch 1
+  Star 0
+  Fork 0 gatortim50/Angular-Fruit-Company
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathAngular-Fruit-Company/.editorconfig
+d8a3bee  on Aug 20, 2014
+ Timothy McKee First commit of Angular Fruit LLC demo app
+0 contributors
+RawBlameHistory     22 lines (15 sloc)  415 Bytes
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# editorconfig.org
+
+root = true
+
+
+[*]
+
+# Change these settings to your own preference
+indent_style = space
+indent_size = 2
+
+# We recommend you to keep these unchanged
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
